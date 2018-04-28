@@ -1,9 +1,20 @@
-.vagrant
-/cookbooks
+*.py[co]
 
-# Bundler
-bin/*
-.bundle/*
+# Default development database
+devdata.db
 
-.kitchen/
-.kitchen.local.yml
+# Default data directory
+data/*
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
